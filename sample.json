@@ -1,0 +1,42 @@
+﻿{
+  "schema": {
+    "deck": {
+      "type": "object",
+      "required": true,
+      "properties": {
+        "name": {
+          "required": true,
+          "title": "Organisation Name",
+          "type": "text"
+        },
+        "desc": {
+          "title": "Organisation Description",
+          "type": "text",
+          "required": true,
+          
+        }
+      }
+    },
+    "deck1": {
+       "required": true,
+      "type": "object",
+      "properties": {
+        "City": {
+          "title": "what city is home for your organisation?",
+          "type": "string",
+           "required": true
+        },
+  	   "sector": {
+          "type": "string",
+          "title": "Sector",
+          "enum": ["Travel", "Travel", "Travel"]
+        },
+        "phase": {
+          "type": "string",
+          "title": "Organisation Phase",
+          "enum": ["Growth", "Growth", "Growth"]
+        }
+      }
+    }
+  }
+}

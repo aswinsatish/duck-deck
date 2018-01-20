@@ -1,0 +1,67 @@
+.company-detail-container.shade-container {
+    padding-top: 10px;
+}
+.shade-container .company-panel {
+    padding-top: 15px;
+}
+.shade-container .icon-edit {
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.shade-container .icon-tic {
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.shade-container .company-panel:hover {
+    box-shadow: 0 3px 16px 0 rgba(0, 0, 0, .11);
+}
+.profile-item-panel.edit-face .profile-item h3 input[type="text"]
+{
+    font-size: 16px;
+    height: 19px;
+}
+.profile-item-panel.edit-face  .profile-item h3.funds span
+{
+    font-size: 16px;
+    top: 1px;
+}
+.edit-face .profile-item p input[type="text"], .edit-face .profile-item .prior-value input[type="text"] {
+    height: 15px;
+}
+.edit-face .profile-item .prior-fund input.currency-input[type="text"], .edit-face .profile-item .prior-value input.date-input[type="text"] {
+    height: 19px;
+}
+.company-panel.edit-face .cd-panel h5 input[type="text"] {
+    height: 20px;
+}
+.shade-container .company-panel.edit-face h3 input[type="text"] {
+    font-size: 20px;
+    height: 32px;
+}
+.company-panel.col-how.edit-face .edit-to ul li {
+    height: 15px;
+}
+.profile-item-panel .profile-item #dacy1 {
+    margin: 0;
+    line-height: 19px;
+}
+.profile-item-panel .profile-item #dacy2 {
+    margin: 0;
+}
+.cd-panel
+{
+	min-height: 100px;
+}
+.shade-container .company-panel {
+    min-height: 425px;
+}
+.profile-item h3 {
+    font-size: 16px;
+}
+.company-detail-container.shade-container .edit-done h3 {
+    font-size: 20px;
+}
+span.place-fund:before {
+    content: "$";
+    margin-right: 3px;
+}
