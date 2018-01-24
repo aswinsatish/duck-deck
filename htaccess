@@ -1,6 +1,6 @@
 <IfModule mod_headers.c>
     Header set Access-Control-Allow-Origin "*"
 
-   ############
+   ############Added#########
 Commit
 </IfModule>
